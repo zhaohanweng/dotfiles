@@ -1,0 +1,8 @@
+git config --global user.name "Zhaohan Weng"
+git config --global user.email zhaohan@hockeystick.co
+git config --global push.default upstream
+git config --global pull.rebase true
+git config --global rerere.enabled true
+git config --global fetch.prune true
+git config --global alias.getpr '!git fetch upstream pull/$1/head:pr/$1 #'
+git config --global alias.st '!open -a SourceTree .'
