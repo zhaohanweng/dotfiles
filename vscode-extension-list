@@ -1,0 +1,21 @@
+➜  dotfiles git:(master) code --list-extensions | xargs -L 1 echo code --install-extension
+code --install-extension 2gua.rainbow-brackets
+code --install-extension adamhartford.vscode-base64
+code --install-extension amatiasq.sort-imports
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension euskadi31.json-pretty-printer
+code --install-extension flesler.url-encode
+code --install-extension kumar-harsh.graphql-for-vscode
+code --install-extension mauve.terraform
+code --install-extension maximus136.change-string-case
+code --install-extension mechatroner.rainbow-csv
+code --install-extension mikestead.dotenv
+code --install-extension mjmcloug.vscode-elixir
+code --install-extension rafamel.subtle-brackets
+code --install-extension rebornix.ruby
+code --install-extension richie5um2.vscode-sort-json
+code --install-extension sianglim.slim
+code --install-extension tomoki1207.pdf
+code --install-extension wingrunr21.vscode-ruby
+code --install-extension yzhang.markdown-all-in-one
