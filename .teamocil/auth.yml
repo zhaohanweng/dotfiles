@@ -1,0 +1,8 @@
+windows:
+  - name: auth
+    root: ~/workspace/hockeystickco/auth
+    layout: main-vertical
+    panes:
+      - echo "pane 1"
+      - echo "pane 2"
+      - echo "pane 3"
