@@ -1,0 +1,20 @@
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+  ServerAliveInterval 120
+
+# Setup control
+Host *
+  ControlMaster auto
+  ControlPath ~/.ssh/sockets/%r@staging-%p
+  ControlPersist 300
+
+Host bastion_dev
+  HostName %h
+  User zhaohan
+
+Host dev*
+  HostName %h
+  User ubuntu
+  ProxyJump zhaohan@bastion_dev
